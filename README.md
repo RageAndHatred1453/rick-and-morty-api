@@ -1,16 +1,35 @@
-# React + Vite
+# Rick and Morty API Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Vaba-laba-dub-da!
+## 📋 Описание
+Приложение получает данные о персонажах сериала «Рик и Морти» с публичного API (`https://rickandmortyapi.com/api/character`) и выводит их в виде интерактивных карточек.
+## ✨ Что реализовано:
+- Запрос к API с помощью `fetch` и хука `useEffect`.
+- Сохранение полученных данных в формате JSON в состояние (`useState`).
+- Вывод карточек с картинками, именами и статусом персонажей.
+- **Живой поиск** по имени персонажа (фильтрация массива без повторного запроса к серверу).
+- Обработка состояний загрузки (`loading`) и ошибок сети (`error`).
 
-Currently, two official plugins are available:
+## 🛠 Технологии
+- React (Vite)
+- JavaScript (ES6+)
+- CSS (встроенные стили)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Как запустить
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+1. Склонируйте репозиторий:
+   ```bash
+   git clone https://github.com/RageAndHatred1453/rick-and-morty-api.git
+Перейдите в папку проекта:
+   cd rick-and-morty-api
+Установите зависимости:
+   npm install
+Запустите сервер разработки:
+   npm run dev
+### Что делать дальше:
+1. Сохрани файл (`Ctrl+S`).
+2. В терминале VS Code введи две команды по очереди, чтобы загрузить README на GitHub:
+   ```bash
+   git add README.md
+   git commit -m "Добавил README с описанием проекта"
+   git push
